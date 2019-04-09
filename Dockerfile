@@ -15,6 +15,6 @@ WORKDIR /app
 
 COPY --from=builder /src/app/app /app/trackjs-exporter
 
-EXPOSE 9197
+EXPOSE 2112
 
 CMD [ "/app/trackjs-exporter" ]
